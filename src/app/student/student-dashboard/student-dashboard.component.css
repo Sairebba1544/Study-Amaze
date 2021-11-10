@@ -1,0 +1,14 @@
+.circle_design {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: white;
+  background: #41cb8b;
+  padding: 18px 4px;
+  margin: 15px 0;
+  line-height: 2px;
+  display: inline-block;
+}
+.border-right {
+  border-right: 1px solid #ccc;
+}

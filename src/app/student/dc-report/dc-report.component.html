@@ -1,0 +1,67 @@
+<div class="container">
+
+    <mat-card>
+
+        <div class="container-fluid">
+    
+            <div class="d-flex mx-2 my-2">
+        
+                <div> Q .</div>
+                <div>
+                    <ng-katex [equation]="report.question"></ng-katex>
+                </div>
+        
+            </div>
+        
+            <div class="d-flex mx-2 my-2">
+        
+                <div>A .</div>
+                <div>
+                    <ng-katex [equation]="report.a"></ng-katex>
+                </div>
+        
+            </div>
+        
+            <div class="d-flex mx-2 my-2">
+        
+                <div>B .</div>
+                <div>
+                    <ng-katex [equation]="report.b"></ng-katex>
+                </div>
+        
+            </div>
+        
+            <div class="d-flex mx-2 my-2">
+        
+                <div>C .</div>
+                <div>
+                    <ng-katex [equation]="report.c"></ng-katex>
+                </div>
+        
+            </div>
+        
+            <div class="d-flex mx-2 my-2">
+        
+                <div>D .</div>
+                <div>
+                    <ng-katex [equation]="report.d"></ng-katex>
+                </div>
+        
+            </div>
+        
+        </div>
+    
+        <div class="container-fluid">
+    
+            <div class="d-flex my-2">
+    
+                <div class="mr-3 green" style="font-weight: 500;">Correct Option : {{ report.correctOption }}</div>
+                <div class="mx-3 blue" style="font-weight: 500;">User Answer : {{ report.userAnswer }}</div>
+                <div class="ml-3 orange" style="font-weight: 500;">Answer Description : {{ report.answerDescription }}</div>
+            </div>
+    
+        </div>
+    
+    </mat-card>
+
+</div>

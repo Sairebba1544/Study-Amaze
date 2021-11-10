@@ -1,0 +1,60 @@
+<div class="container">
+
+    <div class="row justify-content-center">
+
+        <h3>Time Table</h3>
+
+    </div>
+
+    <div class="row">
+
+        <table class="table table-bordered fancy-table js-sans">
+            <tr>
+              <td></td>
+              <th scope="col" class="py-2"> <span *ngFor="let d of weekdays" style="text-transform: capitalize;">{{ d.weekDay }}</span> </th>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period1_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period1_Subject }}</div> <div style="width:300px"> {{ timetable?.period1_Teacher }} </div> </div>  </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period2_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period2_Subject }}</div> <div style="width:300px"> {{ timetable?.period2_Teacher }} </div> </div>  </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period3_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period3_Subject }}</div> <div style="width:300px"> {{ timetable?.period3_Teacher }} </div> </div>  </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period4_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period4_Subject }}</div> <div style="width:300px"> {{ timetable?.period4_Teacher }} </div> </div>  </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period5_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period5_Subject }}</div> <div style="width:300px"> {{ timetable?.period5_Teacher }} </div> </div>  </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period6_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period6_Subject }}</div> <div style="width:300px"> {{ timetable?.period6_Teacher }} </div> </div>  </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period7_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period7_Subject }}</div> <div style="width:300px"> {{ timetable?.period7_Teacher }} </div> </div>  </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period8_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period8_Subject }}</div> <div style="width:300px"> {{ timetable?.period8_Teacher }} </div> </div>  </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period9_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period9_Subject }}</div> <div style="width:300px"> {{ timetable?.period9_Teacher }} </div> </div>  </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ timeslots?.period10_timeSlot }}</th>
+                <td> <div class="d-flex"> <div style="width:300px">{{ timetable?.period10_Subject }}</div> <div style="width:300px"> {{ timetable?.period10_Teacher }} </div> </div>  </td>
+            </tr>
+          </table>
+
+    </div>
+
+</div>
